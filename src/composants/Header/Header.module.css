@@ -1,0 +1,32 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-card-primary);
+    padding: 15px 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid var(--border-input-field)
+}
+
+.containerLogo {
+     display: flex;
+     flex-direction: column;
+}
+
+.containerLogo > p {
+    font-size: small;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logoSolidar {
+    color: var(--color-brand-blue);
+}
+
+.logoAlim {
+    color: var(--color-brand-orange);
+}
+

@@ -1,0 +1,24 @@
+.navLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.navItem {
+    color: var(--text-color-muted);
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navItem:hover {
+    color: var(--text-color-main);
+    background-color: var(--bg-app-screen);
+}
+
+.active {
+    color: var(--text-color-main);
+    background-color: var(--bg-app-screen);
+    font-weight: bold;
+    font-size: large;
+}
