@@ -27,3 +27,15 @@
   --text-color-main: #2C3E50;       /* Bleu Nuit Foncé : Titres et textes principaux (fort contraste) */
   --text-color-muted: #7F8C8D;      /* Gris Asphalte : Textes secondaires, légendes, dates et distances */
 }
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   text-decoration: none;
+}
